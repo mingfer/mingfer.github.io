@@ -69,7 +69,7 @@ sequenceDiagram
 
 效果图：
 
-![image-20190321211950855](../img/post/image-20190321211950855.png)
+![image-20190321211950855](/img/post/image-20190321211950855.png)
 
 实测效果：
 
