@@ -39,7 +39,7 @@ tags:
 ```
 效果图：
 
-![image-20190321213521842](assets/image-20190321213521842.png)
+![image-20190321213521842](/img/post/image-20190321213521842.png)
 
 实测效果：
 
@@ -69,7 +69,7 @@ sequenceDiagram
 
 效果图：
 
-![image-20190321211950855](assets/image-20190321211950855.png)
+![image-20190321211950855](../img/post/image-20190321211950855.png)
 
 实测效果：
 
@@ -138,3 +138,6 @@ You can create footnotes like this[^footnote].
 ## 结语
 
 关于 Markdown 高级语法支持的验证大概就这么多了，这里的重点是：[Typora](https://www/typora.io) 真的是一款书写 Markdown 文档的好帮手。
+
+## 参考文献
+
