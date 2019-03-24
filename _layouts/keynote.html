@@ -53,6 +53,10 @@ layout: default
                 <!-- disqus 评论框 end -->
                 {% endif %}
 
+                {% if site.gitment.enable %}
+                <div id="gitmentContainer"></div>
+                {% endif %}
+
             </div>
 
             <!-- Sidebar Container -->
@@ -112,6 +116,22 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
+{% if site.gitment.enable %}
+<link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+<script src="https://billts.site/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: '<%= page.date %>',
+        owner: '{{site.gitment.githubID}}',
+        repo: '{{site.gitment.repo}}',
+        oauth: {
+            client_id: '{{site.gitment.ClientID}}',
+            client_secret: '{{site.gitment.ClientSecret}}',
+        },
+    });
+    gitment.render('gitmentContainer')
+</script>
+{% endif %}
 
 {% if site.anchorjs %}
 <!-- async load function -->

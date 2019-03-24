@@ -59,6 +59,10 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
+                
+                {% if site.gitment.enable %}
+                <div id="gitmentContainer"></div>
+                {% endif %}
 
                 {% if site.netease_comment %}
                 <!-- 网易云跟帖 评论框 start -->
@@ -137,6 +141,23 @@ layout: default
     })();
 </script>
 <!-- disqus 公共JS代码 end -->
+{% endif %}
+
+{% if site.gitment.enable %}
+<link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+<script src="https://billts.site/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: '<%= page.date %>',
+        owner: '{{site.gitment.githubID}}',
+        repo: '{{site.gitment.repo}}',
+        oauth: {
+            client_id: '{{site.gitment.ClientID}}',
+            client_secret: '{{site.gitment.ClientSecret}}',
+        },
+    });
+    gitment.render('gitmentContainer')
+</script>
 {% endif %}
 
 
