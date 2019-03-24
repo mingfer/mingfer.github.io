@@ -64,6 +64,15 @@ kramdown:
 # Netease settings
 netease_comment: false
 
+# gitment setting
+gitment:
+  enable: true
+  githubID: mingfer
+  repo: mingfer.github.io
+  ClientID: 80ce2e4f6746a62459c5
+  ClientSecret: 3a3cefe36b0755732be0038681b3ceeedfb80d44
+  lazy: true
+
 
 
 # Analytics settings
