@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "关于"
+date: 2019-03-24 22:00:00
 description: "莫问前程，都在风中"
 header-img: "img/about-bg.jpg"
 ---  
@@ -44,7 +45,7 @@ header-img: "img/about-bg.jpg"
 <script src="https://jjeejj.github.io/js/gitment.js"></script>
 <script>
     var gitment = new Gitment({
-        id: '<%= page.date %>',
+        id: '{{page.date}}',
         owner: '{{site.gitment.githubID}}',
         repo: '{{site.gitment.repo}}',
         oauth: {

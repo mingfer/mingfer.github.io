@@ -148,7 +148,7 @@ layout: default
 <script src="https://jjeejj.github.io/js/gitment.js"></script>
 <script>
     var gitment = new Gitment({
-        id: '<%= page.date %>',
+        id: '{{page.date}}',
         owner: '{{site.gitment.githubID}}',
         repo: '{{site.gitment.repo}}',
         oauth: {
