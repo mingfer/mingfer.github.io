@@ -7,4 +7,4 @@ _site
 .idea
 *.iml
 .jekyll-metadata
-_post/assets
+_posts/assets
