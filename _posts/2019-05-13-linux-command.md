@@ -2,7 +2,7 @@
 layout: post
 title: "Linux 常用命令"
 subtitle: "关于 Linux 命令的花式用法"
-date: 2019-04-27 22:03:00
+date: 2019-05-13 20:03:00
 author: "mingfer"
 header-img: "img/post/bg-1.jpg"
 catalog: true
@@ -191,4 +191,17 @@ readlink 用于打印软连接文件的目标文件路径。
 
 使用 `readlink filename` 获取到软连接文件的指向文件的路径。一些系统下目标文件可能是以相对路径存在的，可以使用 `readlink -f filename` 获取目标文件的绝对路径。**注意**：在 macOS 中，readlink 只支持 `-n` 选项，即不在输出内容末尾加换行符
 
- 
+## 去除文件特殊字符
+
+**使用 VI 或 VIM 去除**
+
+- 去除空格：`:%s/ //g`
+- 去除换行：`:%s/\n//g`
+- 去除制表符：`:%s/\t//g`
+
+这里其实是做了正则替换，`: %s/str1/str2/g` 是指在全文中将 `str2` 替换成 `str1`。
+
+**使用 tr 命令替换**
+
+tr 是将一个字符转换为另一个字符的意思，我们可以通过 `cat test.txt | tr '\n' ' ' ` 的方式将 test.txt 文件内容中的 `\n` 替换成空格之后再打印到标准输出中。
+
