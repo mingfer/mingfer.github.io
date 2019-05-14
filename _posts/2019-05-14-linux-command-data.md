@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Linux 数据操作命令"
+title: "Linux 数据转换命令"
 subtitle: "如何实现 Base64，DER，JSON 等数据格式的解析"
-date: 2019-05-12 21:03:00
+date: 2019-05-14 21:03:00
 author: "mingfer"
 header-img: "img/post/bg-1.jpg"
 catalog: true
@@ -10,7 +10,7 @@ tags:
     - "Linux"
 ---
 
-> 主要说明 Linux 下一些用作数据转换的常用命令
+> 主要说明 Linux 下一些用于数据转换的常用命令
 
 ## Base64 数据转换
 
