@@ -9,6 +9,7 @@ catalog: true
 tags: 
     - "Spring Boot"
     - "数据库"
+	- "Web 后端"
 ---
 
 > Spring Boot 主推"约定优于配置"的原则，减少了大量的 XML 配置。但是在实际应用的过程中，出现自定义配置参数的需要是无法避免的。
