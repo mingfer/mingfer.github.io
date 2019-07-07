@@ -9,7 +9,7 @@ catalog: true
 tags: 
     - "Spring Boot"
     - "数据库"
-	- "Web 后端"
+    - "Web 后端"
 ---
 
 > 出于安全方面的考虑，有时候可能我们会希望应用和数据库之间的数据传输是通过 SSL/TLS 协议进行的。本文的主要内容在于介绍一个基于 Spring Boot 的应用如何和 [PostgreSQL](https://www.postgresql.org) 数据库进行 SSL/TLS 通讯。
