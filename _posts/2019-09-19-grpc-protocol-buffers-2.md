@@ -17,6 +17,7 @@ tags:
 本文主要说明 Protocol Buffers  的数据类型，其他教程参见：
 
 - [如何定义一个 Message](http://www.mingfer.cn/2019/09/18/grpc-protocol-buffers-1/)
+- [Protocol Buffers 复合类型和关键字](http://www.mingfer.cn/2019/09/22/grpc-protocol-buffers-3/)
 
 ## 正文
 

@@ -20,7 +20,8 @@ Google 在其开发者网站提供了关于 [Protocol Buffers](https://developer
 
 其他教程参见：
 
-- [Protocol Buffers 的字段类型](http://www.mingfer.cn/2019/09/18/grpc-protocol-buffers-2/)
+- [Protocol Buffers 的字段类型](http://www.mingfer.cn/2019/09/19/grpc-protocol-buffers-2/)
+- [Protocol Buffers 复合类型和关键字](http://www.mingfer.cn/2019/09/22/grpc-protocol-buffers-3/)
 
 ## 正文
 
