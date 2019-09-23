@@ -1,6 +1,6 @@
 ---
-title: "如何在 PL/SQL 中使用 Java 方法"
-date: 2019-09-19 14:00:00
+title: "如何通过 PL/SQL 调用 Java 方法"
+date: 2019-09-23 9:00:00
 author: "mingfer"
 header-img: "img/post/bg-1.jpg"
 catalog: true
