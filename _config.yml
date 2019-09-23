@@ -116,3 +116,7 @@ friends: [
     #     href: "http://su.gallery/"
     # }
 ]
+
+webrick:
+  headers:
+    Cache-Control: no-cache
