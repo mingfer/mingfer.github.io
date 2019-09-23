@@ -1,6 +1,6 @@
 ---
-title: "编写 gRPC 的 Protocol Buffers 文件 • 一"
-subtitle: "如何定义一个 Message ？"
+title: "gRPC 服务 Protocol Buffers 语法教程 • 一"
+subtitle: "如何定义一个 Message "
 date: 2019-09-18 20:00:00
 author: "mingfer"
 header-img: "img/post/bg-1.jpg"
@@ -17,6 +17,11 @@ tags:
 Google 在其开发者网站提供了关于 [Protocol Buffers](https://developers.google.com/protocol-buffers/docs/proto3) 的详细介绍，当然由于国内的原因我们往往无法访问。下面是根据官方文档整理的 proto3 版本的 Protocol Buffers 使用指南。本指南主要介绍如何通过 Protocol Buffers 语法去描述我们的服务接口和请求响应对象，以及 .proto 文件的语法和如何通过 .proto 文件生成对应语言的代码。
 
 这里主要以 java 语言作为开发语言作为示例语言，带来不便，还请见谅。
+
+其他教程参见：
+
+- [Protocol Buffers 的字段类型](http://www.mingfer.cn/2019/09/19/grpc-protocol-buffers-2/)
+- [Protocol Buffers 复合类型和关键字](http://www.mingfer.cn/2019/09/22/grpc-protocol-buffers-3/)
 
 ## 正文
 
@@ -112,10 +117,4 @@ message Foo {
 - 对于 Dart，编译器会生成一个 `.pb.dart` 文件，其中包含文件中每种消息类型的类。
 
 官方的 [API reference](https://developers.google.com/protocol-buffers/docs/reference/overview) 包含了各种语言 API 的更详细的介绍。
-
-## 后记
-
-相关资料参考：
-
-- [Protocol Buffers 的字段类型]()
 
