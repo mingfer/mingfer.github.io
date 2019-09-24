@@ -38,6 +38,8 @@ public class HelloWorld {
 }
 ```
 
+**注意**：所有的 Java 存储过程方法都应该是 `static` 修饰的静态方法。
+
 ### 重定向输出
 
 在 Oracle 数据库中默认的输出设备是一个 `trace file` 而不是用户屏幕。也就是说 Java 中 `System.out` 和 `System.err` 的输出会输出到当前的 `trace file` 中。我们可以重定向输出到当前屏幕，并通过 `dbms_java.set_output()` 设置缓冲区大小：
@@ -143,6 +145,53 @@ CREATE OR REPLACE FUNCTION FUNC_SAY_HELLO_WORLD
 ) RETURN VARCHAR2 AS 
 LANGUAGE JAVA NAME 'HelloWorld.sayHelloWorld(java.lang.String) return java.lang.String';
 ```
+
+## 使用 Jar 包中的方法
+
+既然可以使用 Java 中的方法，那么打包成 Jar 包的 Java 方法也是可以被 SQL 调用的。但是需要注意，不同版本 Oracle 支持的 JDK 版本是不一样的。
+
+| 功能   | Oracle 版本 |
+| ------ | ----------- |
+| JDK1.5 | 11.1+       |
+| JDK1.6 | 12.1+       |
+| JDK1.7 | 12.1+       |
+| JDK1.8 | 12.2+       |
+
+### 导入 Jar 包
+
+导入 Jar 包或导入 Java 源码，`.class` 文件都需要使用 `loadjava` 工具。该工具在 Oracle 完整版本的安装包中有提供（注意不是 instant client），下载地址参见 [Oracle 11g Realease 2 Client](http://www.oracle.com/technetwork/database/enterprise-edition/downloads/112010-win64soft-094461.html) 。
+
+使用下面的命令导入 `.java`，`.jar` 或 `.class` 文件：
+
+```shell
+$ loadjava -u user/password@database -r -o -verbose xxx.jar
+```
+
+**注意**：
+
+- `-u` 指定的 database 名称可以在 `tnsnames.ora` 中取得
+- 指定了 `-r` 选项或去解析每一个类的依赖情况，如果没有提前导入其依赖的类会导致报错。
+- `-o` 是使用本地的 Oracle OCI 驱动连接 Oracle 数据库。
+
+已经导入的内容可以使用 `dropjava` 进行卸载：
+
+```shell
+$ dropjava -u user/password@database -o -verbose xxx.jar
+```
+
+### 查看导入的内容
+
+使用 `sqlplus` 可以通过下面的 SQL 语句进行查看：
+
+```sql
+SQL> select * from user_java_classes
+```
+
+在 Oracle SQL Developer 中可以通过上述语句查看，也可以刷新数据库之后在 【Java】下面查看：
+
+![1569316044152](/img/post/1569316044152.png)
+
+导入 jar 包之后，将 jar 包里面需要使用的存储过程映射成对应的 PL/SQL 过程或函数即可。这部分内容在上面的教程中已经详细说明了，这里不再赘述。
 
 ## 异常处理
 
