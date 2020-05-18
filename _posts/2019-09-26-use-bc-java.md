@@ -435,5 +435,3 @@ public class MessageDigestTest {
 }
 ```
 
-### 消息认证 Mac
-
