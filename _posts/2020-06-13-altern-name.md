@@ -1,13 +1,12 @@
 ---
-title: "签发带有 subjectAltName 的证书"
-date: 2020-06-13 15:17:00
+title: "证书签发与 SubjectAltName 扩展项"
+date: 2020-06-13  16:29:00
 author: "mingfer"
-header-img: "img/post/bg-2.jpg"
+header-img: "img/post/bg-1.jpg"
 catalog: true
 tags: 
     - "openssl"
     - "数字证书"
-	- "密码学"
 ---
 
 ## subjectAltName 的作用
