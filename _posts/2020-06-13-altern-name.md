@@ -1,6 +1,6 @@
 ---
 title: "签发带有 subjectAltName 的证书"
-date: 2020-06-1 15:17:00
+date: 2020-06-13 15:17:00
 author: "mingfer"
 header-img: "img/post/bg-2.jpg"
 catalog: true
