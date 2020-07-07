@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "gRPC 服务 Protocol Buffers 语法教程 • 一"
 subtitle: "如何定义一个 Message "
 date: 2019-09-18 20:00:00

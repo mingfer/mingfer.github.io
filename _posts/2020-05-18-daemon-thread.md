@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Java Thread 之 Daemon Thread"
 date: 2020-05-18 21:29:00
 author: "mingfer"

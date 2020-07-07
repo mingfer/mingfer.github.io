@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "如何通过 PL/SQL 调用 Java 方法"
 date: 2019-09-23 9:00:00
 author: "mingfer"

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "gRPC 服务 Protocol Buffers 语法教程 • 二"
 subtitle: "Protocol Buffers 的字段类型"
 date: 2019-09-19 20:00:00

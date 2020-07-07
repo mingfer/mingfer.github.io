@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "证书签发与 SubjectAltName 扩展项"
 date: 2020-06-13  16:29:00
 author: "mingfer"

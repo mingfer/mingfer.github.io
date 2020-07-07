@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "gRPC 服务 Protocol Buffers 语法教程 • 三"
 subtitle: "Protocol Buffers 复合类型和关键字"
 date: 2019-09-22 20:00:00

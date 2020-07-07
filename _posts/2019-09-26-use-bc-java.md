@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Java 下常用密码算法的使用"
 subtitle: "如何使用 BouncyCastle 算法库"
 date: 2019-09-29 13:00:00
