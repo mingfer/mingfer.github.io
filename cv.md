@@ -1,5 +1,6 @@
 ---
 layout: cv
+hidden: true
 title: 简历
 year: 1994/01 5年工作经验
 email:

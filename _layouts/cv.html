@@ -2,6 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
+{% if page.hidden%}    
+    <meta name="hidden" http-equiv="refresh" content="3;url=https://www.mingfer.cn">
+  </head>
+  <body>
+    构建中。。。。。。
+  </body>
+{% else %}
     <title>{% if page.title %} {{ page.title }} | {% endif %} CV</title>
     <link
       href="/media/cv-screen.css"
@@ -32,4 +39,5 @@
       </div>
     </div>
   </body>
+{% endif %}
 </html>
