@@ -1,8 +1,7 @@
 ---
 layout: cv
-hidden: true
 title: 简历
-year: 1994/01 5年工作经验
+year: 27岁 5年工作经验
 email:
   url: mailto:mingfer.cn@gmail.com
   text: mingfer.cn@gmail.com
@@ -25,25 +24,23 @@ Supported arguments:
 
 ## 个人信息
 
-### **我的技术栈** 
+### **技术栈** 
 
-- 熟练掌握 Java 和面向对象设计开发，能够熟练使用 SpringBoot 框架，包括 WebMVC 和 WebFlux。
-- 熟悉 TCP/IP，SSL/TLS 工作原理，熟悉 gRPC 协议，能够熟练的使用 Java 工具进行性能调优。
-- 熟悉 git 的工作流（GitLab），能够熟练使用 MarkDown，有良好的文档编写风格和习惯。
-- 能够熟练使用 Linux 命令和编写 Shell 脚本，对 C/C++, Objective-C，JavaScript 等编程语言有一定的了解。
-- 对 Docker 有一定的了解，使用 Docker 搭建过 Jenkins，Nexus 等开发平台。
+- 使用 Java 作为主力开发语言，熟悉面向对象设计，能够熟练使用 C/C++，JavaScript, Objective-C，shell 等开发语言
+- 能够熟练使用 SpringBoot 框架，能够熟练使用 WebMVC 和 WebFlux 搭建和开发应用
+- 能够熟练使用 Junit 编写单元测试，使用 jvisualvm 进行性能瓶颈分析
+- 熟悉 TCP/IP，SSL/TLS 工作原理，熟悉 gRPC 协议，能够使用 wireshark，tcpdump 等工具排查通讯问题。
+- 有良好的文档编写风格和习惯，能够熟练使用 MarkDown，Swagger3
+- 熟悉 Git 及其工作流，能够使用 gitea + jenkins + nexus 搭建持续测试持续集成框架
+- 对 Linux 系统有一定的了解，能够熟练使用 Linux 命令，对 Docker 有一定的了解
 
-### **我的业务栈** 
+### **业务栈** 
 
-- 熟悉常用的对称和非对称算法的使用，对证书体系和 PKI 体系有深入的了解
-- 熟悉 JCE 框架，有在 BouncyCastle 库上扩展国密 SSL 的经验，并通过了国密检测中心的验收
+- 熟悉常用的密码算法：DES/AES/RSA/SHA-512/SHA-256/SHA-1/SM4/SM3/SM2
+- 熟悉数字证书的生成流程及使用，能够熟练使用 OpenSSL 或 BouncyCastle 库完成证书的生成
+- 熟悉 JCE 框架，熟悉国密 SSL 流程，有在 BouncyCastle 库上扩展国密 SSL 的经验
 - 能够熟练的通过阅读 RFC 等算法规范资料完成算法流程设计
 - 有带领敏捷团队的经验，能够熟练的使用敏捷方法展开 Sprint 迭代
-
-### **我的期望** 
-- 期望工作：Java 应用开发；数据保护与信息安全；区块链
-- 期望薪资：税前月薪 25K ~ 28K，如果有特别喜欢的工作内容可例外
-- 期望城市：广州，深圳，成都，重庆
 
 ## 工作经历
 
