@@ -31,13 +31,13 @@ Supported arguments:
 - 开发框架：熟悉 SpringBoot，能够熟练使用 WebMVC + HazelCast + JPA 和 WebFlux + HazelCast + JPA 搭建和开发应用
 - 通讯协议：熟悉 TCP，HTTP1.1，HTTP2.0 和 GRPC 协议；熟悉 SSL/TLS 和国密 SSL 的工作原理和实现；能够熟练使用 wireshark，tcpdump，openssl，curl 等工具排查通讯问题
 - 测试与调优：熟悉 Junit4 和 Junit5 框架，熟悉 Postman 和 supertest 等 HTTP 接口测试工具；能够熟练使用 jvisualvm，jstack 等工具分析性能瓶颈和进行性能优化
-- 文档与版本管理：熟悉 Markdown 语法和 OpenAPI 3 规范；能够熟练使用 git 和 GitLab，Gitea 等代码托管平台
-- 能够熟练使用相关 Linux 命令，对 Docker 的使用有一定了解；能够使用 gitea + jenkins + nexus 搭建持续测试持续集成平台
 - 熟悉 PKI 体系和常用的密码算法，熟悉数字证书的生成及使用，熟悉 KMIP 规范
 - 熟悉安全编码相关的规范；有参与和建设敏捷团队 (Scrum) 的经验
+- 文档与版本管理：熟悉 Markdown 语法和 OpenAPI 3 规范；能够熟练使用 git 和 GitLab，Gitea 等代码托管平台
+- 能够熟练使用相关 Linux 命令，对 Docker 的使用有一定了解；能够使用 gitea + jenkins + nexus 搭建持续测试持续集成平台
 
 ### **求职意向**
-- 期望薪资：25k - 30k 元/月
+<!-- - 期望薪资：25k - 30k 元/月 -->
 - 工作地点：成都，重庆，广州，深圳
 - 工作方向：数据安全，区块链，CA
 
